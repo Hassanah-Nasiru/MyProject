@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(56, 218, 232);
+}
+.container{
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+}
+
+.emoji{
+    grid-row: inherit;
+    grid-column: inherit;
+}
+
+.big-emoji{
+    
+}
+
